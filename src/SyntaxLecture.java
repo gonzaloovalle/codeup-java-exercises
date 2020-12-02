@@ -75,6 +75,9 @@ public class SyntaxLecture {
 //            char seatingSection = 'M'; // must wrap in single quotes
 //            boolean everythingIsAwesome = false;
 
+
+                String bool = "true";
+
         // strings (not a primitive type)
 
 //                 String thisIsAString = "Hello";
