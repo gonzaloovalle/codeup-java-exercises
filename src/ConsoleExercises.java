@@ -16,6 +16,8 @@ public class ConsoleExercises {
         System.out.println("Enter an integer");
         int number = scanner.nextInt();
         scanner.nextLine();
+
+
     }
 
 }
