@@ -3,7 +3,7 @@ package util;
 import java.util.Scanner;
 
 public class Input {
-    private Scanner sc;
+    private final Scanner sc;
 
     public Input(){
         this.sc = new Scanner(System.in);
@@ -40,7 +40,7 @@ public class Input {
     public int getInt(int min, int max, String prompt){
         int input;
         do{
-            System.out.println(prompt)
+            System.out.println(prompt);
             input = this.sc.nextInt();
         } while(input < min || input > max);
 
