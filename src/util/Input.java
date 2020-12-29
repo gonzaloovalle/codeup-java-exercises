@@ -65,4 +65,8 @@ public class Input {
 
         return input;
     }
+
+    public int getInt(String s) {
+        return 0;
+    }
 }
