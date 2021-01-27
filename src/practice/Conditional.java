@@ -134,6 +134,55 @@ public class Conditional {
             }
             System.out.print("\n");
         }
+
+        System.out.print("Input first floatingpoint number: ");
+        double number1 = in.nextDouble();
+        System.out.print("Input second floatingpoint number: ");
+        double number2 = in.nextDouble();
+        if (Math.abs(number1 - number2) <= 0.01) {
+            System.out.println("These numbers are the same.");
+        }
+        else {
+            System.out.println("These numbers are different.");
+        }
+
+        System.out.print("Input a number: ");
+        double n = in.nextDouble();
+
+        if (n > 0)
+        {
+            if (n < 1)
+            {
+                System.out.println("Positive small");
+            }
+            else if (n > 1000000)
+            {
+                System.out.println("Positive large");
+            }
+            else
+            {
+                System.out.println("Positive");
+            }
+        }
+        else if (n < 0)
+        {
+            if (Math.abs(n) < 1)
+            {
+                System.out.println("Negative small");
+            }
+            else if (Math.abs(n) > 1000000)
+            {
+                System.out.println("Negative large");
+            }
+            else
+            {
+                System.out.println("Negative");
+            }
+        }
+        else
+        {
+            System.out.println("Zero");
+        }
     }
     }
 
