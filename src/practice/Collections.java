@@ -15,5 +15,10 @@ public class Collections {
             System.out.println(element);
         }
 
+        System.out.println(list_Strings);
+
+        list_Strings.add(0, "Pink");
+        list_Strings.add(5, "Yellow");
+
     }
 }
