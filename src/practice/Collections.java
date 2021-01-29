@@ -20,5 +20,9 @@ public class Collections {
         list_Strings.add(0, "Pink");
         list_Strings.add(5, "Yellow");
 
+        String element = list_Strings.get(0);
+        System.out.println("First element: "+element);
+        element = list_Strings.get(2);
+        System.out.println("Third element: "+element);
     }
 }
