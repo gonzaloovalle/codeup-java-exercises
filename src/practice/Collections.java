@@ -33,5 +33,11 @@ public class Collections {
         System.out.println("Before removing third element from the list:\n"+list_Strings);
         list_Strings.remove(2);
         System.out.println("After removing third element from the list:\n"+list_Strings);
+
+        if (list_Strings.contains("Red")) {
+            System.out.println("Found the element");
+        } else {
+            System.out.println("There is no such element");
+        }
     }
 }
