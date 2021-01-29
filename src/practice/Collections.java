@@ -19,15 +19,19 @@ public class Collections {
 
         list_Strings.add(0, "Pink");
         list_Strings.add(5, "Yellow");
-        System.out.println(list_Strings);
+        System.out.println("After adding two elements at first and last index:\n"+list_Strings);
 
         String element = list_Strings.get(0);
         System.out.println("First element: "+element);
         element = list_Strings.get(2);
         System.out.println("Third element: "+element);
 
-        System.out.println(list_Strings);
+        System.out.println("Before replacing third element in the list:\n"+list_Strings);
         list_Strings.set(2, "Yellow");
-        System.out.println(list_Strings);
+        System.out.println("After replacing third element in the list:\n"+list_Strings);
+
+        System.out.println("Before removing third element from the list:\n"+list_Strings);
+        list_Strings.remove(2);
+        System.out.println("After removing third element from the list:\n"+list_Strings);
     }
 }
