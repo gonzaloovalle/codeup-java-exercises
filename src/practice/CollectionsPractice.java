@@ -72,5 +72,17 @@ public class CollectionsPractice {
         System.out.println("Original List: "+list);
         Collections.shuffle(list);
         System.out.println("Shuffled List: "+list);
+
+        System.out.println("Original List: "+colors_list);
+        Collections.reverse(colors_list);
+        System.out.println("Reversed list: "+colors_list);
+
+        System.out.println("Original List: "+shapes_list);
+        Collections.reverse(shapes_list);
+        System.out.println("Reversed List: "+shapes_list);
+
+        System.out.println("Original List: "+list);
+        Collections.reverse(list);
+        System.out.println("Reversed List: "+list);
     }
 }
