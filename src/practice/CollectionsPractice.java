@@ -60,5 +60,17 @@ public class CollectionsPractice {
         ArrayList list = (ArrayList)colors_list.clone();
 
         System.out.println(list);
+
+        System.out.println("Original List: "+colors_list);
+        Collections.shuffle(colors_list);
+        System.out.println("Shuffled list: "+colors_list);
+
+        System.out.println("Original List: "+shapes_list);
+        Collections.shuffle(shapes_list);
+        System.out.println("Shuffled List: "+shapes_list);
+
+        System.out.println("Original List: "+list);
+        Collections.shuffle(list);
+        System.out.println("Shuffled List: "+list);
     }
 }
