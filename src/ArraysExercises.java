@@ -17,6 +17,6 @@ public class ArraysExercises extends Person {
         }
     }
 
-    public static addPerson()
+//    public static addPerson()
 
 }
