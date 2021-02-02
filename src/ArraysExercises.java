@@ -21,11 +21,6 @@ public class ArraysExercises {
         }
     }
 
-    public static Person[] addPerson(Person[] pplArray, Person personToAdd) {
-        Person[] tempArray = Arrays.copyOf(pplArray, pplArray.length+1);
-        tempArray[tempArray.length-1] = personToAdd;
 
-        return tempArray;
-    }
 
 }
